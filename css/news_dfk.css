@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-  background: rgba(0,0,0, .8);
+  background: rgba(255, 255, 255, .4);
   border-radius: 10px;
 }
 
@@ -63,4 +63,16 @@ body{
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #FFFFFF;
+  cursor: default;
+  background-color: rgba(94, 70, 206, .5);
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  border-radius: 10px;
 }
