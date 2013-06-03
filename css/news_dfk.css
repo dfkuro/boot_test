@@ -1,5 +1,5 @@
 body{ 
-  background: #fff url(../img/35079879.jpg) no-repeat top center fixed; 
+  background: #fff url(../img/20858865.jpg) no-repeat top center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,7 @@ body{
 	/*background: #C2E2DF;*/
 }
 
-.container{
+body{
   background: rgba(255, 255, 255, .4);
   border-radius: 10px;
 }
@@ -29,7 +29,7 @@ body{
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: rgba(133, 220, 203, .3);
+  /*background-color: rgba(133, 220, 203, .3);*/
 }
 
 .navbar-fixed-top,
@@ -76,3 +76,49 @@ body{
   border-bottom-color: transparent;
   border-radius: 10px;
 }
+
+.navbar-inner {
+  background-color: #000;
+  background-image: -moz-linear-gradient(top, #000, #777);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#777));
+  background-image: -webkit-linear-gradient(top, #000, #fff);
+  background-image: -o-linear-gradient(top, #000, #777);
+  background-image: linear-gradient(to bottom, #000, #777);
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+#carousel-text{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border:1px solid #ccc;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+#second-container{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border:1px solid #ccc;
+}
+
+#principal_content{
+  max-height: 600px;
+  overflow: auto;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  }
